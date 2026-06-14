@@ -33,29 +33,29 @@ label {
     font-weight: 600;
 }
 
-button {
-    margin-top: 10px;
-    font-size: 1rem;
-    padding: 8px 16px;
+button,
+input,
+select {
     border-radius: 4px;
     border: 1px solid var(--accent-border);
+    font-size: 1rem;
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
     background-color: var(--accent-bg);
     color: var(--accent);
     cursor: pointer;
 }
 
 input {
-    font-size: 1rem;
     padding: 8px;
-    border-radius: 4px;
-    border: 1px solid var(--border);
 }
 
 select {
-    font-size: 1rem;
     padding: 8px;
-    border-radius: 4px;
-    border: 1px solid var(--border);
 }
 
 option {
